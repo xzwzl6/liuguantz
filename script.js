@@ -24,10 +24,6 @@ SOFTWARE.
 
 'use strict';
 
-// Mobile promo section
-
-const promoPopup = document.getElementsByClassName('promo')[0];
-const promoPopupClose = document.getElementsByClassName('promo-close')[0];
 
 
 // Simulation section
