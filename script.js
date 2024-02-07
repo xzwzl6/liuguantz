@@ -29,16 +29,6 @@ SOFTWARE.
 const promoPopup = document.getElementsByClassName('promo')[0];
 const promoPopupClose = document.getElementsByClassName('promo-close')[0];
 
-if (isMobile()) {
-    setTimeout(() => {
-        promoPopup.style.display = 'table';
-    }, 20000);
-}
-
-promoPopupClose.addEventListener('click', e => {
-    promoPopup.style.display = 'none';
-});
-
 
 // Simulation section
 
